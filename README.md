@@ -22,9 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * Content list
-    Admin
-    Teacher
-    Student
-    Test
-    Question
-    Answer
+    * Users:
+        Admin
+        Editor
+        User
+    * Test set:
+        Question
+        Answer
+        Test
+        Results
