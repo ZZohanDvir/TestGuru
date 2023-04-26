@@ -1,8 +1,7 @@
 class CreateQuestions < ActiveRecord::Migration[6.1]
   def change
     create_table :questions do |t|
-      t.integer :id
-      t.text :body
+      t.text :body, null: false
       t.references :test_id
 
       t.timestamps
